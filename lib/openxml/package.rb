@@ -8,7 +8,7 @@ require "zip"
 
 module OpenXml
   class Package
-    attr_reader :parts, :content_types, :rels
+    attr_accessor :parts, :content_types, :rels
 
 
 
